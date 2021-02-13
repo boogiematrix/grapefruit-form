@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grapefruit Giveaway!</title>
+</head>
+
+<body>
+    <h1>We're giving away a grapefruit!</h1>
+    <main>
+        
+        <form>
+            <div>
+            <label for='fname'>First Name:</label>
+            <input type='text' id='fname' name='fname' required><br/><br/>
+            </div>
+            <div>
+            <label for='lname'>Last Name:</label>
+            <input type='text' id='lname' name='lname' required/>
+            </div>
+            <h2>Planet:</h2>
+            <div>
+            <input type="radio" id="venus" name="planet" value="venus">
+            <label for="venus">Venus</label><br>
+            </div>
+            <div>
+            <input type="radio" id="mars" name="planet" value="mars">
+            <label for="mars">Mars</label><br>
+            </div>
+            <div>
+            <input type="radio" id="luna" name="planet" value="luna">
+            <label for="luna">Luna</label><br/>
+            </div>
+            <div>
+            <input type="radio" id="mercury" name="planet" value="mercury">
+            <label for="mercury">Mercury</label><br>
+            </div>
+            <div>
+            <input type="radio" id="saturn" name="planet" value="saturn">
+            <label for="saturn">Saturn</label><br>
+            </div>
+            <div>
+            <input type="radio" id="newangeles" name="planet" value="newangeles">
+            <label for="newangeles">New Angeles</label><br/><br/>
+            </div>
+            <h2><label for='age'>Age</label></h2>
+            <select id="age" name="age">
+                <option disabled selected value> -- select an option -- </option>
+                <option value="primordial">Primordial Era</option>
+                <option value="stelliferous">Stelliferous Era</option>
+                <option value="degenerate">Degenerate Era</option>
+                <option value="blackhole">Black Hole Era</option>
+                <option value="dark">Dark Era</option>
+              </select>
+            <h2>Gender</h2>
+            <div>
+            <input type='checkbox' id='genderyes' name='genderyes' value='yes' />
+            <label for='genderyes'>Yes</label>
+            </div>
+            <div>
+            <input type='checkbox' id='genderno' name='genderno' value='no' />
+            <label for='genderno'>No</label>
+            </div>
+            <h3>----------------------</h3>
+            <div>
+            <input type='checkbox' id='wave' name='wave' value='yes' />
+            <label for='wave'>Receive our bi-saecular brain wave with updates on grapefruits?</label>
+            </div><br/>
+            <input type="submit" value="Submit">
+        </form>
+    
+    </main>
+</body>
+</html>
